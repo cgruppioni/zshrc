@@ -29,7 +29,6 @@ alias test='bin/rake test:system'
 alias testfile='bin/rake test'
 alias show_pids='lsof -wni tcp:3000'
 alias kill_pid='kill -9 '
-alias upstream='git pull upstream master --rebase'
 alias h2o='cd ~/lil/h2o'
 alias refresh='bundle install && bundle exec rake db:migrate && npm install'
 alias -g poop=pop
